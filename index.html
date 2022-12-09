@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- ICON -->
+    <script src="https://kit.fontawesome.com/354c0cf8f7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <header
+                class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-3">
+                <a href="/"
+                    class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none fs-3 fw-bold">
+                    Pro Edu
+                </a>
+
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0 gap-5">
+                    <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
+                    <li><a href="#" class="nav-link px-2 link-secondary">Features</a></li>
+                    <li><a href="#" class="nav-link px-2 link-secondary">Pricing</a></li>
+                    <li><a href="#" class="nav-link px-2 link-secondary">FAQs</a></li>
+                    <li><a href="#" class="nav-link px-2 link-secondary">About</a></li>
+                </ul>
+
+                <div class="col-md-3 text-end">
+                    <button type="button" class="btn btn-outline-primary me-2">Login</button>
+                </div>
+            </header>
+        </nav>
+        <!-- xxxxxxxxxxxx-Carusel-xxxxxxxxx -->
+        <div id="carouselExampleCaptions" class="carousel slide container mb-5" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/cover/cover-1.png" class="d-block w-100 fluid" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>First slide label</h2>
+                        <p>Some representative placeholder content for the first slide.</p>
+                        <button type="button" class="btn btn-primary">Primary</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cover/rsz_cover-2.jpg" class="d-block w-100 fluid" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Second slide label</h2>
+                        <p>Some representative placeholder content for the second slide.</p>
+                        <button type="button" class="btn btn-primary">Primary</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cover/rsz_1cover-3.jpg" class="d-block w-100 fluid" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Third slide label</h2>
+                        <p>Some representative placeholder content for the third slide.</p>
+                        <button type="button" class="btn btn-primary">Primary</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <!-- xxxxxxxxxxxxxxxxxx-Courses-xxxxxxxxxxxxxxxx -->
+        <section>
+            <div class="text-center container mt-5 mb-5">
+                <h2 class="fw-bold">Discover Our Popular Courses</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout.</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row g-0 border rounded  mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col-auto">
+                                <img src="images/course/course-1.png" alt="">
+                            </div>
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <h3 class="mb-0">Featured post</h3>
+                                <p class="card-text mb-auto">This is a wider card with supporting text below as a
+                                    natural
+                                    lead-in to additional content.</p>
+                                <p class="text-primary fw-bold">Price:20$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row g-0 border rounded  mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col-auto">
+                                <img src="images/course/course-2.png" alt="">
+                            </div>
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <h3 class="mb-0">Featured post</h3>
+                                <p class="card-text mb-auto">This is a wider card with supporting text below as a
+                                    natural
+                                    lead-in to additional content.</p>
+                                <p class="text-primary fw-bold">Price:20$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row g-0 border rounded  mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col-auto">
+                                <img src="images/course/course-3.png" alt="">
+                            </div>
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <h3 class="mb-0">Featured post</h3>
+                                <p class="card-text mb-auto">This is a wider card with supporting text below as a
+                                    natural
+                                    lead-in to additional content.</p>
+                                <p class="text-primary fw-bold">Price:20$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row g-0 border rounded  mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col-auto">
+                                <img src="images/course/course-4.png" alt="">
+                            </div>
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <h3 class="mb-0">Featured post</h3>
+                                <p class="card-text mb-auto">This is a wider card with supporting text below as a
+                                    natural
+                                    lead-in to additional content.</p>
+                                <p class="text-primary fw-bold">Price:20$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row g-0 border rounded  mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col-auto">
+                                <img src="images/course/course-5.png" alt="">
+                            </div>
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <h3 class="mb-0">Featured post</h3>
+                                <p class="card-text mb-auto">This is a wider card with supporting text below as a
+                                    natural
+                                    lead-in to additional content.</p>
+                                <p class="text-primary fw-bold">Price:20$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row g-0 border rounded  mb-4 shadow-sm h-md-250 position-relative">
+                            <div class="col-auto">
+                                <img src="images/course/course-6.png" alt="">
+                            </div>
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <h3 class="mb-0">Featured post</h3>
+                                <p class="card-text mb-auto">This is a wider card with supporting text below as a
+                                    natural
+                                    lead-in to additional content.</p>
+                                <p class="text-primary fw-bold">Price:20$</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-5">
+                    <button type="button" class="btn btn-primary">See More Courses</button>
+                </div>
+            </div>
+        </section>
+        <!-- . -->
+        <section class="container mt-5">
+            <div class="card mb-3">
+                <div class="row g-0 align-items-center">
+                    <div class="col-md-4">
+                        <img src="images/working.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h2 class="card-title">Explore The elearning Institute</h2>
+                            <p class="card-text text-secondary">There are many variations of passages of Lorem Ipsum
+                                available, but the
+                                majority have suffered alteration in some form, by injected humour, or randomised words
+                                which don't look even slightly believable. If you are going to use a passage of Lorem
+                                Ipsum, you need to be sure.
+                                <br>
+                                Anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on
+                                the Internet tend to repeat predefined.
+                            </p>
+                            <div class="d-flex gap-5 my-4">
+                                <div>
+                                    <h2 class="card-title mb-0">3.2K+</h2>
+                                    <p class="card-text text-secondary">Online Course</p>
+                                </div>
+                                <div>
+                                    <h2 class="card-title mb-0">600K+</h2>
+                                    <p class="card-text text-secondary">Expert Number</p>
+                                </div>
+                                <div>
+                                    <h2 class="card-title mb-0">1K+</h2>
+                                    <p class="card-text text-secondary">Rating & Review</p>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-primary">Primary</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- . -->
+        <section class="bg-primary d-flex align-items-center container p-5 gap-5 mb-5">
+            <div class="text-white">
+                <h2>Ready to join?</h2>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout.</p>
+            </div>
+            <div>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-light text-primary border-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Register Now
+                </button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="modal modal-signin position-static d-block" tabindex="-1" role="dialog"
+                                    id="modalSignin">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content rounded-4 shadow">
+                                            <div class="modal-header p-5 pb-4 border-bottom-0">
+                                                <!-- <h1 class="modal-title fs-5" >Modal title</h1> -->
+                                                <h1 class="fw-bold mb-0 fs-2">Sign up for free</h1>
+                                            </div>
+                                            <div class="modal-body p-5 pt-0">
+                                                <form class="">
+                                                    <div class="form-floating mb-3">
+                                                        <input type="email" class="form-control rounded-3"
+                                                            id="floatingInput" placeholder="name@example.com">
+                                                        <label for="floatingInput">Email address</label>
+                                                    </div>
+                                                    <div class="form-floating mb-3">
+                                                        <input type="password" class="form-control rounded-3"
+                                                            id="floatingPassword" placeholder="Password">
+                                                        <label for="floatingPassword">Password</label>
+                                                    </div>
+                                                    <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary"
+                                                        type="submit">Sign
+                                                        up</button>
+                                                    <small class="text-muted">By clicking Sign up, you agree to the
+                                                        terms of
+                                                        use.</small>
+                                                    <hr class="my-4">
+                                                    <h2 class="fs-5 fw-bold mb-3">Or use a third-party</h2>
+                                                    <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-3"
+                                                        type="submit">
+                                                        <i class="fa-brands fa-twitter"></i>
+                                                        Sign up with Twitter
+                                                    </button>
+                                                    <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3"
+                                                        type="submit">
+                                                        <i class="fa-brands fa-facebook-f"></i>
+                                                        Sign up with Facebook
+                                                    </button>
+                                                    <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3"
+                                                        type="submit">
+                                                        <i class="fa-brands fa-github"></i>
+                                                        Sign up with GitHub
+                                                    </button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx-MAIN BODY-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
